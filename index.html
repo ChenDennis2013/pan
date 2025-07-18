@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>MLE自动机的网盘</title>
+        <script>
+            function change()
+            {
+                document.getElementById("dn").href = document.getElementById("fn").value;
+            }
+        </script>
+    </head>
+    <body>
+        <div style="align-content: center;">
+            <textarea id="fn" placeholder="文件名" wrap="soft" style="resize: none;" onchange="change()"></textarea>
+            <a id="dn" download>下载</a>
+        </div>
+    </body>
+</html>
